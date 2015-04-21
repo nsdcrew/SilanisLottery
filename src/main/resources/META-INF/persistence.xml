@@ -6,13 +6,30 @@
 		<properties>
 			<!-- Database configuration -->
 			<property name="hibernate.connection.driver_class"  value="com.mysql.jdbc.Driver"/>
-			<property name="hibernate.connection.url"           value="jdbc:mysql://localhost:3306/silanis_lottery"/>
-			<property name="hibernate.connection.username"      value="root"/>
-			<property name="hibernate.connection.password"      value=""/>
+			<!-- 
+			<property name="hibernate.connection.url"           value="jdbc:mysql://localhost:3306/silanislottery"/>
+			 -->
+			
+			<property name="hibernate.connection.url"           value="jdbc:mysql://127.8.91.130:3306/silanislottery"/>
+			 
+			 <property name="hibernate.connection.username"      value="adminI3x9mL6"/>
+			<property name="hibernate.connection.password"      value="pqMJdWnH8URc"/>
 			<property name="hibernate.dialect"                  value="org.hibernate.dialect.MySQLDialect"/>
 			<!-- Hibernate configuration -->
 			<property name="hibernate.hbm2ddl.auto"       value="none"/>
 			<property name="hibernate.show_sql"           value="true"/>
+			
+						 <!-- Important -->
+          <property name="hibernate.connection.provider_class"
+          value="org.hibernate.service.jdbc.connections.internal.C3P0ConnectionProvider" />
+			
+	        <property name="hibernate.c3p0.acquire_increment"  value="1"/>
+	        <property name="hibernate.c3p0.idle_test_period" value="100"/>
+	        <property name="hibernate.c3p0.max_size" value="100"/>
+	        <property name="hibernate.c3p0.min_size" value="10"/>
+	        <property name="hibernate.c3p0.timeout" value="0"/>
+	        <property name="hibernate.c3p0.max_statements" value="0"/>
+			
 		</properties>
 	</persistence-unit>
     
