@@ -23,4 +23,7 @@ HOW TO INSTALL silanislottery DATABASE to a local database:
 import silanislottery.sql to a mysql database throw phpmyadmin
 silanislottery.sql contain a "CREATE DATABASE" instruction, so you don't need to create the database first
 
-
+HOW TO EXECUTE APP WITH ECLIPSE:
+file --> import --> existing project into workspace --> select "SilanisLottery-master" --> finish
+To make it working you have to install the silanislottery database on a mysql serveur local first.
+you can also change database confirguration throw the persistance.xml file
