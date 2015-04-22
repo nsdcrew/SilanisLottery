@@ -29,7 +29,7 @@ HOW TO EXECUTE APP WITH ECLIPSE:
 file --> import --> existing project into workspace --> select "SilanisLottery-master" --> finish
 To make it working you have to install the silanislottery database on a mysql server local first.
 you can also change database configuration throw the persistance.xml file
-Once you made it, you should be able to make the app working well with a tomcat server.
+Once you made it, you should be able to make the app working well on a tomcat server.
 
 HOW TO EXECUTE JUNIT TEST WITH ECLIPSE:
 select /src/test/java package --> right click --> run as --> JUNIT test
