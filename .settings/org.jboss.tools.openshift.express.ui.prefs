@@ -1,0 +1,7 @@
+eclipse.preferences.version=1
+org.jboss.tools.openshift.ApplicationId=55366e49e0b8cdfcbc000018
+org.jboss.tools.openshift.ApplicationName=silanislottery
+org.jboss.tools.openshift.Connection=https\://vincent.romain21%40gmail.com@
+org.jboss.tools.openshift.DeployFolder=webapps
+org.jboss.tools.openshift.Domain=nsdcrew
+org.jboss.tools.openshift.RemoteName=openshift
