@@ -6,12 +6,14 @@
 		<properties>
 			<!-- Database configuration -->
 			<property name="hibernate.connection.driver_class"  value="com.mysql.jdbc.Driver"/>
-			<!-- 
-			<property name="hibernate.connection.url"           value="jdbc:mysql://localhost:3306/silanislottery"/>
-			 -->
+		        <!-- DATABASE CONFIG FOR A LOCAL MYSQL SERVEUR WHERE A silanislottery schema exist-->
 			
+			<property name="hibernate.connection.url"           value="jdbc:mysql://localhost:3306/silanislottery"/>
+			
+			<!-- DATABASE CONFIG FOR OPENSHIFT ONLINE MYSQL SERVEUR -->
+			<!-- 
 			<property name="hibernate.connection.url"           value="jdbc:mysql://127.8.91.130:3306/silanislottery"/>
-			 
+			 -->
 			 <property name="hibernate.connection.username"      value="adminI3x9mL6"/>
 			<property name="hibernate.connection.password"      value="pqMJdWnH8URc"/>
 			<property name="hibernate.dialect"                  value="org.hibernate.dialect.MySQLDialect"/>
