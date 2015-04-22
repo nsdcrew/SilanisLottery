@@ -1,6 +1,6 @@
 # SilanisLottery
 
-Online app adress : 
+Online app address : 
 silanislottery-nsdcrew.rhcloud.com
 
 SECURITY : 
@@ -8,7 +8,9 @@ HOW TO LOGIN to the app:
 Login name: admin
 Login password : silanis
 
-APPLICATION SERVEUR INFOs:
+JAVA VERSION : 1.7
+
+APPLICATION SERVER :
 Tomcat 7
 
 DATABASE INFOS:
@@ -25,9 +27,9 @@ silanislottery.sql contain a "CREATE DATABASE" instruction, so you don't need to
 
 HOW TO EXECUTE APP WITH ECLIPSE:
 file --> import --> existing project into workspace --> select "SilanisLottery-master" --> finish
-To make it working you have to install the silanislottery database on a mysql serveur local first.
-you can also change database confirguration throw the persistance.xml file
-Once you made it, you should be able to make the app working well with on a local tomcat server.
+To make it working you have to install the silanislottery database on a mysql server local first.
+you can also change database configuration throw the persistance.xml file
+Once you made it, you should be able to make the app working well with a tomcat server.
 
 HOW TO EXECUTE JUNIT TEST WITH ECLIPSE:
 select /src/test/java package --> right click --> run as --> JUNIT test
